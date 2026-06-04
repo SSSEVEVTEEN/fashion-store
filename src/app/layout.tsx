@@ -7,8 +7,8 @@ import Providers from "@/components/Providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ApexLoom | 时尚服装",
-  description: "ApexLoom - 时尚从这里开始，品质生活",
+  title: "CraftThreadGYC | 时尚服装",
+  description: "CraftThreadGYC - 时尚从这里开始，品质生活",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <footer className="bg-gray-900 text-white mt-16">
             <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
               <div>
-                <h3 className="font-black text-xl tracking-widest mb-4 uppercase">ApexLoom</h3>
+                <h3 className="font-black text-xl tracking-widest mb-4 uppercase">CraftThreadGYC</h3>
                 <p className="text-gray-400 text-sm leading-relaxed">时尚从这里开始，品质生活的最佳选择。</p>
               </div>
               <div>
@@ -50,7 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </div>
             </div>
             <div className="border-t border-gray-800 py-4 text-center text-xs text-gray-500">
-              © 2025 ApexLoom. 保留所有权利.
+              © 2025 CraftThreadGYC. 保留所有权利.
             </div>
           </footer>
         </Providers>

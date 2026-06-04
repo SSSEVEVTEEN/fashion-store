@@ -24,7 +24,7 @@ export default function Home() {
             2025 新品系列
           </p>
           <h1 className="text-5xl md:text-7xl font-black tracking-wider mb-4 uppercase">
-            ApexLoom
+            CraftThreadGYC
           </h1>
           <p className="text-lg mb-8 opacity-90">时尚从这里开始 · 品质生活</p>
           <div className="flex gap-4">

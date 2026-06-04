@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="text-2xl font-extrabold tracking-widest text-black uppercase">
-            ApexLoom
+            CraftThreadGYC
           </Link>
 
           {/* Search bar */}
