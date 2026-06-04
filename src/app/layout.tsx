@@ -7,8 +7,8 @@ import Providers from "@/components/Providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "LUXE 时装",
-  description: "精选时尚服装，品质生活从这里开始",
+  title: "ApexLoom | 时尚服装",
+  description: "ApexLoom - 时尚从这里开始，品质生活",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -18,8 +18,40 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Providers>
           <Navbar />
           <main>{children}</main>
-          <footer className="mt-20 border-t border-gray-100 py-12 text-center text-sm text-gray-400">
-            <p>© 2025 LUXE 时装. 保留所有权利.</p>
+          <footer className="bg-gray-900 text-white mt-16">
+            <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-2 md:grid-cols-4 gap-8">
+              <div>
+                <h3 className="font-black text-xl tracking-widest mb-4 uppercase">ApexLoom</h3>
+                <p className="text-gray-400 text-sm leading-relaxed">时尚从这里开始，品质生活的最佳选择。</p>
+              </div>
+              <div>
+                <h4 className="font-bold mb-4 text-sm uppercase tracking-wider">购物指南</h4>
+                <ul className="space-y-2 text-sm text-gray-400">
+                  <li><a href="/products" className="hover:text-white">全部商品</a></li>
+                  <li><a href="/products?category=新品" className="hover:text-white">新品上架</a></li>
+                  <li><a href="/cart" className="hover:text-white">购物车</a></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-bold mb-4 text-sm uppercase tracking-wider">客户服务</h4>
+                <ul className="space-y-2 text-sm text-gray-400">
+                  <li>退换货政策</li>
+                  <li>配送说明</li>
+                  <li>联系我们</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-bold mb-4 text-sm uppercase tracking-wider">关注我们</h4>
+                <ul className="space-y-2 text-sm text-gray-400">
+                  <li>微博</li>
+                  <li>微信</li>
+                  <li>小红书</li>
+                </ul>
+              </div>
+            </div>
+            <div className="border-t border-gray-800 py-4 text-center text-xs text-gray-500">
+              © 2025 ApexLoom. 保留所有权利.
+            </div>
           </footer>
         </Providers>
       </body>
